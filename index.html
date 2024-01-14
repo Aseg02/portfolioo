@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anacristina's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGO2.PNG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, Im <span>Anacristina segovia </span><br></h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/update.jpg">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> My name is Anacristina,I'm 21 years old, and currenlty reside in Texas. <br>
+                            I enjoy reading, writing, and learning new things. </p>
+                              <div class="tab-titles" >
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links " onclick="opentab('experience')" >Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                              </div>
+                              <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JAVASCRIPT</li>
+                                    <li>REACT</li>
+                                    <li>BOOTSTRAP</li>
+                                    <li>NODE.JS</li>
+                                    <li>MVC</li>
+                                    <li>MYSQL</li>
+                                    <li>ORM</li>
+                                    <li>MONGODB</li>
+                                    <li>API</li>
+                                    <li>EXPRESS.JS</li>
+                                    <li>MERN</li>
+                                    <li>TAILWIND</li>
+                                    <li>EXPRESS.JS</li>
+                                    <li>QUICKBOOKS</li>
+                                    <li>KALI LINUX</li>
+                                    <li>PYTHON</li>
+                                    <li>EXCEL</li>
+                                    <li>MICROSOFT WORD</li>
+                                    <LI>OOP</LI>
+                                    <li>FRAMEWORK (HANDLEBARS.JS)</li>
+                                    <li>UNIT TESTING</li>
+                                    <li>HEROKU</li>
+                                    <li>PWAs</li>
+                                </ul>
+                              </div>
+                              <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li>
+                                        Basave MS, Dallas TX — Web Designer DEC 2021 - PRESENT <br>
+● Built mock designs and wireframes for landing pages for 5 new product concepts.
+<br>
+● Created accessible, responsive, and functional user interfaces to allow visitors on any device to have the same perfect user experience.
+<br>
+● Created the user experience that fetched, parsed, and formatted analytic data, and relayed it into React components.
+<br>
+● Collaborated on the Complexity Score tool, which removed process bottlenecks by assigning scores to cost, time, and compliance issues, increasing eficency by 72%.
+<br>
+<br>
+<br>
+<br>
+<br>
+Blackboard , remote — Web Development Intern NOV 2020 - DEC 2021<br>
+● Developed user interfaces with modern JavaScript frameworks,HTML5, and CSS3, which improved user satisfaction by 31%.
+<br>
+● Developed object-oriented code in Node.js with 100% accordance to industry and company standards.
+<br>
+● Learned multiple threading, concurrency, design patterns, and their impacts on application concurrency.
+<br>
+● Designed and developed web applications using JavaScript frameworks React.js and Angular.js to increase target audience engagement by 12%
+<br>
+<br>
+<br>
+<br>
+<br>
+Deckers, remote — Tech support agent SEP 2016 - NOV 2020<br>
+● Maintains system functionality by testing computer components.
+<br>
+● Helped design and implement networks.
+<br>
+● Maximizes computer systems capabilities by studying technical applications and making recommendations.
+<br>
+● Confirms program objectives and specifications by testing new programs, comparing them with established standards, and making modifications.
+                                    </li>
+                                </ul>
+                              </div>
+                              <div class="tab-contents" id="education">
+                                <ul>
+                                    <li>The University of Texas at Austin<br></li>
+                                    <li>Coding/Programing Bootcamp Certificate</li>
+                                </ul>
+                              </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+<!-- <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2> HTML</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laborum, hic qui quia molestias repellendus amet, suscipit corrupti exercitationem 
+                    error fuga animi vero alias, quam odio omnis explicabo magni ducimus consequuntur!</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2> 222222</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laborum, hic qui quia molestias repellendus amet, suscipit corrupti exercitationem 
+                    error fuga animi vero alias, quam odio omnis explicabo magni ducimus consequuntur!</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2> 33333</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laborum, hic qui quia molestias repellendus amet, suscipit corrupti exercitationem 
+                    error fuga animi vero alias, quam odio omnis explicabo magni ducimus consequuntur!</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/book.png" >
+                <div class="layer">
+                    <h3>Legendary Giggles</h3>
+                    <p>sLegendary Giggles is a two player guessing game! Player 1 will be 
+                        presented with a image while making sounds that represent whats on the 
+                        picture, while player 2 guesses what the picture is.  For example, if
+                         a cat pic is shown then player 1 will make a 'meow' sound. </p>
+                    <a href="https://legendary-giggle-4c67ca9ca408.herokuapp.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project-img1.png" >
+                <div class="layer">
+                    <h3>Green Thumb</h3>
+                    <p>Green thumb hub is a garden helper app! Green thumb hub 
+                        is a app where you can keep track on how much you've watered 
+                        your plants, get reminders, and see a breif description on your plants</p>
+                    <a href="https://gentle-fortress-84585-60555956fddc.herokuapp.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/book.png" >
+                <div class="layer">
+                    <h3>Book Hub</h3>
+                    <p>Book hub helps you quit the screen! If you are a movie/ 
+                        show binger and would like to start reading then book
+                         hub is the place to go, You will take a short test
+                          inputting the types of shows/movie you like to watch, 
+                          you will then be given recommendaions based on your 
+                          inputs </p>
+                    <a href="https://cyphernyx.github.io/BookHub/index.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/blog.png" >
+                <div class="layer">
+                    <h3>Tech Blog</h3>
+                    <p>shdbfuhsbc </p>
+                    <a href="http://asegoblog.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/schedule.png" >
+                <div class="layer">
+                    <h3>Workday </h3>
+                    <p>shdbfuhsbc </p>
+                    <a href="https://aseg02.github.io/workday/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/waether.png" >
+                <div class="layer">
+                    <h3>Weather</h3>
+                    <p>shdbfuhsbc </p>
+                    <a href="https://aseg02.github.io/weather//"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/store.png" >
+                <div class="layer">
+                    <h3>Store</h3>
+                    <p>shdbfuhsbc </p>
+                    <a href="https://aseg02.github.io/store/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/booksearch.png" >
+                <div class="layer">
+                    <h3>Book Search</h3>
+                    <p>Green thumb hub is a garden helper app! Green thumb hub 
+                        is a app where you can keep track on how much you've watered 
+                        your plants, get reminders, and see a breif description on your plants</p>
+                    <a href="https://book-search-challenge-21-mern.herokuapp.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/passwordgen.png" >
+                <div class="layer">
+                    <h3>Password Generator</h3>
+                    <p>Green thumb hub is a garden helper app! Green thumb hub 
+                        is a app where you can keep track on how much you've watered 
+                        your plants, get reminders, and see a breif description on your plants</p>
+                    <a href="https://aseg02.github.io/pass-gen/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact ME</h1>
+                <p><i class="fas fa-paper-plane">anasegovia505@gmail.com</p>
+                <p>paste phone icon here 512-298-9239</p>
+                <div class="social-icons"> </div>
+                <a href="htpps://facebook.com"><i class="fab fa-facebook"> </a>
+                    <a href="images/Resume-2.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"> </textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright Made with by Anacristina</p>
+    </div>
+</div>
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu (){
+            sidemenu.style.right= "0";
+        }
+        function closemenu (){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
